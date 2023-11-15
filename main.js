@@ -3,9 +3,9 @@ const {createApp} = Vue;
 const vueData = {
     data: function () {
         return {
-            messaggio : "Carpe Diem"
-        }
-        
+            messaggio : "Carpe Diem",
+            image : "img/pexels-ameruverse-digital-marketing-media-1643409.jpg"
+        }     
     }
 };
-createApp(vueData).map('#app')
+createApp(vueData).mount('#app')
