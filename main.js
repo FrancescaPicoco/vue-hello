@@ -7,5 +7,5 @@ const vueData = {
         }
         
     }
-}
+};
 createApp(vueData).map('#app')
