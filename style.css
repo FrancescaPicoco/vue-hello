@@ -6,7 +6,7 @@
 body{
     font-family: 'Roboto' , sans-serif;
     background-color:rgb(37, 40, 42);
-    color: rgb(117, 115, 50);
+    
 }
 .resize{
     width: 1200px;
@@ -16,4 +16,17 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.color-0{
+    color: rgb(117, 115, 50);
+}
+.color-2{
+    color: rgb(39, 81, 39);
+}
+button{
+    padding: 0.3rem;
+    background-color: slategray;
+    color: rgb(53, 69, 22);
+    border-radius: 30px;
+    border: 1px solid rgb(117, 115, 50);
 }

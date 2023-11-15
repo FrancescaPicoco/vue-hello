@@ -11,7 +11,8 @@
 </head>
 <body>
     <div id="app" class="container">
-        <h1> {{ messaggio }} </h1>
+        <h1 v-bind:class="color"> {{ messaggio }} </h1>
+        <button @click="clicked">change h1 color</button>
         <img v-bind:src="image" v-bind:class="size">
     </div>
 
